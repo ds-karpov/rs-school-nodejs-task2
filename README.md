@@ -17,6 +17,19 @@ git clone {repository URL}
 npm install
 ```
 
+## Setup .env
+
+Set your environment variable according to .env.example file.
+
+|         | type | required | default |
+| ------- |:--------:|:--------:| :------:|
+| PORT    | number | no | 4000 |
+| NODE_ENV | string| no | development |
+| MONGO_CONNECTION_STRING | string| no | - |
+| JWT_SECRET_KEY | string| no | - |
+| AUTH_MODE | boolean | no | false |
+
+
 ## Running application
 
 ```
